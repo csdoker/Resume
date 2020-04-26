@@ -164,8 +164,9 @@ body {
   color: #777;
 }
 
-.main .unit-content .item .item-content .item-intro .intro-icon {
-  margin-right: 6px;
+.main .unit-content .item .item-content .item-intro-wrapper {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 @media print {
