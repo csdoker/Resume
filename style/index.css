@@ -123,10 +123,27 @@ body {
   font-weight: 700;
 }
 
+.side .unit.info .unit-content .item, .side .unit.contact .unit-content .item {
+  display: flex;
+  align-items: center;
+}
+
+.side .unit.info .unit-content .item-title, .side .unit.contact .unit-content .item-title {
+  width: 30%;
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
 .side .unit-content .item .item-content {
   font-size: 12px;
   color: #777;
   line-height: 20px;
+}
+
+.side .unit.info .unit-content .item-content, .side .unit.contact .unit-content .item-content {
+  width: 70%;
+  color: #333;
 }
 
 .side .unit-content .item .item-content .item-intro-wrapper {
