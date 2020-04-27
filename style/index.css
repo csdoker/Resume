@@ -125,6 +125,13 @@ body {
 
 .side .unit-content .item .item-content {
   font-size: 12px;
+  color: #777;
+  line-height: 20px;
+}
+
+.side .unit-content .item .item-content .item-intro-wrapper {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 .main {
