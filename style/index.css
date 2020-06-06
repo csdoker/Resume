@@ -132,6 +132,10 @@ strong {
   margin-bottom: 14px;
 }
 
+.main .unit-content .item {
+  margin-bottom: 28px;
+}
+
 .side .unit-content .item .item-title {
   font-size: 14px;
   margin-bottom: 2px;
