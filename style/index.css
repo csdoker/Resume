@@ -27,15 +27,15 @@ body {
   height: 100%;
   line-height: 1.5;
   font-size: 16px;
-  /* background-color: #eee; */
-  background-color: lightslategray;
+  background-color: #eee;
+  /* background-color: lightslategray; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 strong {
-  color: #333;
-  font-size: 12px;
+  color: #42b983;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ strong {
 
 .side {
   width: 35%;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
 }
 
 @media screen and (max-width: 860px) {
@@ -106,8 +106,12 @@ strong {
 }
 
 .side .me .name {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
+}
+
+.side .me .job {
+  font-size: 20px;
 }
 
 .side .unit-title,
@@ -115,7 +119,7 @@ strong {
   display: flex;
   align-items: center;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #333;
   margin-bottom: 10px;
@@ -137,7 +141,7 @@ strong {
 }
 
 .side .unit-content .item .item-title {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 2px;
   font-weight: 700;
 }
@@ -150,15 +154,15 @@ strong {
 .side .unit.info .unit-content .item-title, .side .unit.contact .unit-content .item-title {
   width: 30%;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 .side .unit-content .item .item-content {
-  font-size: 12px;
+  font-size: 14px;
   color: #777;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 .side .unit.info .unit-content .item-content, .side .unit.contact .unit-content .item-content {
@@ -187,17 +191,17 @@ strong {
 }
 
 .main .unit-content .item .item-subtitle {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .main .unit-content .item .item-title {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
   font-weight: 700;
-  line-height: 20px;
+  /* line-height: 20px; */
 }
 
 .main .unit-content .item .item-title .link {
@@ -211,8 +215,8 @@ strong {
 }
 
 .main .unit-content .item .item-content {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  /* line-height: 20px; */
   color: #777;
 }
 
