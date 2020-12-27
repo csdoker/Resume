@@ -423,13 +423,19 @@
                     为了锻炼自己关于Vue相关高级特性的使用，我开发了这套组件库，UI规范借用了<strong>Element</strong>的设计，组件逻辑则由自己独立实现
                   </li>
                   <li class="item-intro">
-                    使用 <strong>Webpack</strong> 及 <strong>Gulp</strong> 等构建工具，实现了组件库的全量引入和按需引入
+                    使用 <strong>Webpack</strong> 及
+                    <strong>Gulp</strong>
+                    等构建工具，实现了组件库的全量引入和按需引入
                   </li>
                   <li class="item-intro">
                     基于单向数据流的思想实现组件逻辑，完成了组件之间共用模块的高效复用
                   </li>
                   <li class="item-intro">
-                    目前主要基于 <strong>template</strong> 模式编写组件代码，计划在未来逐步用 <strong>vue3</strong> 的新特性重构代码，并将组件编写模式升级为 <strong>tsx</strong> 风格，增强组件功能的可拓展性
+                    目前主要基于
+                    <strong>template</strong> 模式编写组件代码，计划在未来逐步用
+                    <strong>vue3</strong>
+                    的新特性重构代码，并将组件编写模式升级为
+                    <strong>tsx</strong> 风格，增强组件功能的可拓展性
                   </li>
                   <li class="item-intro">
                     部分组件已被公司同事广泛使用，有效提高了前端团队的开发效率
@@ -520,7 +526,7 @@
                     、<strong>自定义Hooks</strong>、<strong>TypeScript</strong>
                   </li>
                   <li class="item-intro">
-                    在Vue版的项目中熟悉了TypeScript的基础语法，以及
+                    在Vue版的项目中熟悉了 TypeScript 的基础语法，以及
                     <strong>Class</strong> 风格的Vue组件编写
                   </li>
                   <li class="item-intro">
@@ -530,7 +536,8 @@
                     的风格编写函数组件
                   </li>
                   <li class="item-intro">
-                    在两个版本中使用Vuex、自定义Hooks分别实现了组件数据的全局管理
+                    在两个版本中使用 <strong>Vuex</strong>、自定义 Hooks
+                    分别实现了组件数据的全局管理
                   </li>
                   <li class="item-intro">
                     使用
@@ -578,7 +585,11 @@
                     搜索算法的优化，搜索深度最高可达6层，棋力尚可
                   </li>
                   <li class="item-intro">
-                    实现了<strong>棋型判断</strong>、<strong>评估函数</strong>等核心逻辑，以及<strong>启发式搜索</strong>、<strong>迭代加深</strong>、<strong>置换表</strong>等优化算法
+                    实现了 <strong>棋型判断</strong>、<strong>评估函数</strong>
+                    等核心逻辑，以及
+                    <strong>启发式搜索</strong
+                    >、<strong>迭代加深</strong>、<strong>置换表</strong>
+                    等优化算法
                   </li>
                   <li class="item-intro">
                     通过这个AI的开发，让我学会了如何使用算法、数据结构去解决实际项目中的复杂问题，以及分析问题的方法与思路
@@ -606,17 +617,17 @@
     </article>
     <script src="//at.alicdn.com/t/font_1783592_32y9kmmvrn.js"></script>
     <script>
-      function getAge (dateString) {
-        var today = new Date()
-        var birthDate = new Date(dateString)
-        var age = today.getFullYear() - birthDate.getFullYear()
-        var m = today.getMonth() - birthDate.getMonth()
+      function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-          age--
+          age--;
         }
-        return age
+        return age;
       }
-      age.innerHTML = getAge('1995-02-28')
+      age.innerHTML = getAge("1995-02-28");
     </script>
   </body>
 </html>

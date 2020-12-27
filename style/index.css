@@ -230,9 +230,21 @@ strong {
     background-color: white;
   }
   .container {
-    margin: 0;
     /* height: 1120px; */
     /* height: 1123px; */
     /* overflow: hidden; */
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+  .side, .main {
+    width: 100%;
+  }
+  .side .me,
+  .unit {
+    margin: 20px 0;
+  }
+  .main .unit {
+    margin: 20px 0;
   }
 }
